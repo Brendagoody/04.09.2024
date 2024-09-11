@@ -7,3 +7,38 @@ box-sizing: border-box;
 body{
     background-color: hsl(148, 38%, 91%)
 }
+
+.Formulario{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+    form{
+    background-color: white;
+    height: 80vh;
+    width: 50vw;
+    border-radius: 1em;
+    padding: 2em;
+
+    }
+
+.CampoNome, .CampoDeSelecao {
+    display: flex;
+}
+
+input{
+    width: 100%;
+    height: 5vh;
+    border-radius: 0.5em;
+    border: 1px solid lightgray;
+}
+button{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(137, 166, 137);
+    border:none;
+    border-radius: 0.5em;
+    color: black;
+}
